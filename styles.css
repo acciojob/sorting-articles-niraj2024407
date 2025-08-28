@@ -1,76 +1,29 @@
 /*  your css code here. If applicable */
 /* Reset and base styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f2f5;
-    color: #333;
-    padding: 20px;
-}
-
-.container {
-    max-width: 800px;
-    margin: 40px auto;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
-    color: #2c3e50;
-    margin-bottom: 20px;
-    font-size: 2.2em;
-}
-
-.info {
-    text-align: center;
-    color: #7f8c8d;
-    margin-bottom: 30px;
-    font-style: italic;
-}
-
-#band {
-    list-style: none;
-    font-size: 18px;
-    line-height: 1.8;
-}
-
-#band li {
-    padding: 12px 20px;
-    margin: 8px 0;
-    background-color: #f8f9fa;
-    border-left: 4px solid #3498db;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-}
-
-#band li:hover {
-    background-color: #e9f5ff;
-    transform: translateX(5px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    .container {
-        margin: 20px;
-        padding: 20px;
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
     }
-    
-    h1 {
-        font-size: 1.8em;
-    }
-    
-    #band {
-        font-size: 16px;
-    }
-}
 
+    .list-container {
+      width: 300px;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 20px;
+      margin: 50px auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    li {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
